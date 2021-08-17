@@ -1,4 +1,4 @@
-policy "foo" {
-  source = "git::https://github.com/BrianSchnieders-Insight/tfc-guide-example.git/policies/aws"
+policy "restrict-current-ec2-instance-type" {
+  source = "./restrict-current-ec2-instance-type.sentinel"
   enforcement_level = "soft-mandatory"
 }
